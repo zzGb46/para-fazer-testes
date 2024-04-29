@@ -1,11 +1,11 @@
-#manipular{
+#como{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+    
     height: 500px;
 }
-#meu{
-    background-color: red;
+
+#txt, #buttom{
+    height: 100px;
 }
