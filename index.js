@@ -51,16 +51,49 @@
 
 
 
-function botao() {
-var txt = document.getElementById("txt");
-var res = document.getElementById("resposta");
-var vel = Number(txt.value);
+// function botao() {
+// var txt = document.getElementById("txt");
+// var res = document.getElementById("resposta");
+// var vel = Number(txt.value);
 
-res.innerHTML = `a velocidade atual é de ${vel} km/h`
+// res.innerHTML = `a velocidade atual é de ${vel} km/h`
 
-if(vel > 200){
-    document.getElementById("resposta").innerHTML +=  "<p>metendo o louco</p>"
-}else{
-    res.innerHTML +=" MACHO"
+// if(vel > 200){
+//     document.getElementById("resposta").innerHTML +=  "<p>metendo o louco</p>"
+// }else{
+//     res.innerHTML +=" MACHO"
+// }
+// }
+
+
+// for(let c = 1;c <= 4;c++){ COM UTILIZAR O FOR 
+// console.log("oi")
+// }
+
+// let num = [8, 9, 10] APRENDENDO A UTILIZAR O PRIMEIRO EXEMPLO DE ARRAY
+// console.log(`Os números escolhidos são ${num}`)
+
+// let numdois = [900, 800, 300, 400, 500]
+// numdois.sort() 
+// console.log(numdois)
+// console.log(`Colocando nome às posições dos elementos que fazem parte de ${numdois.length}`)
+// console.log(numdois[2])
+// for( let pos=0; pos < numdois.length; pos++){
+//     console.log(`A posição ${pos} tem o valor de ${numdois[pos]}`)
+// }
+
+// APRENDENDO A DECLARAR PARÂMETROS
+// function nosso(n){
+// if(n%2 == 0){
+//     return "my dick"
+// }else{
+//     return "mentira"
+// }
+
+// }
+// document.getElementById("resposta").innerHTML = nosso(3)
+
+function soma(n1=2 ,n2=10){
+    return n1 + n2
 }
-}
+document.getElementById("resposta").innerHTML = soma()
