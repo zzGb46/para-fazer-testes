@@ -1,11 +1,18 @@
-#como{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    height: 500px;
+button{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
 }
 
-#txt, #buttom{
-    height: 100px;
+img{
+    height: 200px;
+    width: 200px;
+}
+#manipulação{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: linear-gradient(to top, white, aqua);
+height: 500px;
 }

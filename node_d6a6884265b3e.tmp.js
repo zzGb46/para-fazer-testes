@@ -109,23 +109,6 @@
 // // console.log(v(5))
 
  
-// SOMANDO VARIÁVEIS COMPOSTAS
-//  let a=(n1,n2)=>{
-// return n1 + n2
-//  }
-//  document.getElementById("resposta").innerHTML=(a(7,7))
-
-// -------------------
-// MANIPULANDO E MUDANDO IMAGENS ATRAVÉS DE COMANDOS DE JS
-let img1 = "interiores.jfif";
-let img2 = "interior 2.jfif";
-
-function teste(){
-    document.getElementById("imagem1").src = img1;
-   let aux = img1;
-   img1 = img2;
-   img2 = aux;
-
-    let body = document.body;
-    body.style.background= "blue", "white";
-}
+ for(let c = 3;c > 2 ; c++ ){
+    console.log("eae")
+ }
