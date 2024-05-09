@@ -115,17 +115,32 @@
 //  }
 //  document.getElementById("resposta").innerHTML=(a(7,7))
 
+
+
 // -------------------
 // MANIPULANDO E MUDANDO IMAGENS ATRAVÉS DE COMANDOS DE JS
 let img1 = "interiores.jfif";
 let img2 = "interior 2.jfif";
+let img3 = "interior3.jfif";
 
 function teste(){
-    document.getElementById("imagem1").src = img1;
-   let aux = img1;
-   img1 = img2;
-   img2 = aux;
-
-    let body = document.body;
-    body.style.background= "blue", "white";
+    document.getElementById("imagem1").src= img1;
+    let aux = img1;
+    img1 = img2;
+    img2 = img3;
+    img3 = aux;
 }
+
+function teste2(){
+    document.getElementById("imagem1").src = img3;
+    let aux2 = img3;
+    img3 = img2;
+    img2 = img1;
+    img1 = aux2;
+
+}
+
+let titulo = document.getElementById("titu").innerHTML
+
+titulo = document.body;
+titulo.style.color = "red"
